@@ -850,14 +850,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 410087039}
-  m_LocalRotation: {x: 0.86037815, y: -0.11764223, z: 0.2305376, w: 0.43904686}
+  m_LocalRotation: {x: 0.8740958, y: -0.08743009, z: 0.17133236, w: 0.44604692}
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 125.93, y: -30, z: 0}
+  m_LocalEulerAnglesHint: {x: 125.93, y: -22.18, z: 0}
 --- !u!114 &410087042
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1708,6 +1708,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: rootplanette
       objectReference: {fileID: 0}
+    - target: {fileID: 1457179121794997254, guid: 74a3ce25142584b00a2c9c499958bd9f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c603d70d2c5094c3391ad56ddd964489, type: 2}
     - target: {fileID: 1677075051003302113, guid: 74a3ce25142584b00a2c9c499958bd9f,
         type: 3}
       propertyPath: m_RootOrder
@@ -1763,6 +1768,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3026716852252436386, guid: 74a3ce25142584b00a2c9c499958bd9f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 78638c42e240e4e55addfe9964f5b48a, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 74a3ce25142584b00a2c9c499958bd9f, type: 3}
 --- !u!1 &1104620224
